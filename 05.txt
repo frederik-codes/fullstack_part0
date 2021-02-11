@@ -1,5 +1,6 @@
 0.5 single page app
 
+Isn't it the same as in the exercise description? For SPA only the way notes are handled changed?
 
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
 server-->browser: HTML-code
@@ -14,9 +15,5 @@ that requests JSON data from server
 end note
 
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
-server-->browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...]
+server-->browser: json
 
-note over browser:
-browser executes the event handler
-that renders notes to display
-end note	
