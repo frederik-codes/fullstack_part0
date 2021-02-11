@@ -1,0 +1,9 @@
+0.5 new note
+
+
+browser -> server:	HTTP Post https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+browser sends new note as JSON- data
+
+server --> browser:	Code 201 (created)
+
